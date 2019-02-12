@@ -35,11 +35,7 @@ quotient = a / b
 print("a / b =", quotient, ", which is a", type(quotient))
 
 floor_quotient = a // b
-print("a // b =",
-        floor_quotient,
-        ", which is a",
-        type(floor_quotient),
-        )
+print("a // b =", floor_quotient, ", which is a", type(floor_quotient))
 
 remainder = a % b
 print("a % b =", remainder, ", which is a", type(remainder))
@@ -77,7 +73,7 @@ floor_quotient = a // b
 print("a // b =", floor_quotient, ", which is a", type(floor_quotient))
 
 remainder = a % b
-print("a % b =," remainder ", which is a," type(remainder))
+print("a % b =," remainder, ", which is a," type(remainder))
 
 power = a ** b
 print("a ** b =",
