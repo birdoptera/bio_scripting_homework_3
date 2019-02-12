@@ -4,7 +4,7 @@
 date +"%c"
 timeanddate=$(date)
 
-loggedusers=${who | cut -d' ' -f1}
+loggedusers=$(who)
 
 sys_uptime=$(uptime)
 
